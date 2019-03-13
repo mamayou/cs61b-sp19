@@ -84,7 +84,7 @@ public class IntList {
         //TODO:  fill in method
         IntList p = A;
         if (p == null) {
-            p = B;
+            A = B;
         } else {
             while (p.rest != null) {
                 p = p.rest;
