@@ -79,7 +79,7 @@ public class NBody {
 		for (Body b : arr) {
 			System.out.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
 							  b.xxPos, b.yyPos, b.xxVel,
-							  b.yyVel, b.mass, b.imgFileName);
+							  b.yyVel, b.mass, b.imgFileName.substring(7));
 		}
 	}
 }
